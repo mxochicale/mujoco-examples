@@ -1,11 +1,11 @@
 # Mujoco examples
 
-
 ## Building from source
 ```bash
 cd ~/repositories
 git clone https://github.com/google-deepmind/mujoco.git
-cd mujoco && mkdir build
+cd mujoco
+mkdir -p build && cd build
 cmake ..
 cmake --build .
 ```
@@ -45,3 +45,4 @@ cd bin
 ```bash
 git clone git@github.com:mxochicale/mujoco-examples.git
 ```
+
